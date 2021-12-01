@@ -15,25 +15,7 @@
  */
 class Solution {
     public TreeNode bstFromPreorder(int[] preorder) {
-        if (preorder.length == 1) {
-            return new TreeNode(preorder[0]);
-        } else {
-            int firstMax = -1;
-            for (int i = 1; i < preorder.length; i++) {
-                if (preorder[i] > preorder[0]) {
-                    firstMax = i;
-                    break;
-                } else {
-
-                }
-            }
-            if (firstMax == -1) {
-                return new TreeNode(preorder[0], helper(preorder, 1, preorder.length - 1), null);
-            }
-            return new TreeNode(preorder[0],
-                    helper(preorder, 1, firstMax - 1),
-                    helper(preorder, firstMax, preorder.length - 1));
-        }
+        return helper(preorder, 0, preorder.length - 1);
     }
 
     public TreeNode helper(int[] preorder, int low, int high) {

@@ -11,11 +11,14 @@
 class Solution {
     public ListNode removeElements(ListNode head, int val) {
         if (head == null) {
-            return null;
-        }else if (head.val == val) {
-            return removeElements(head.next, val);
+            return head;
+        }
+        ListNode next = removeElements(head.next, val);
+        if (head.val == val) {
+            return next;
         } else {
-            return new ListNode(head.val, removeElements(head.next, val));
+            head.next = next;
+            return head;
         }
 
     }

@@ -5,7 +5,6 @@ class Solution {
         while(y > 0) {
             newX *= 10;
             newX += (y % 10);
-            y -= (y % 10);
             y /= 10;
             if (newX > Integer.MAX_VALUE / 10 && y > 0) {
                 return 0;

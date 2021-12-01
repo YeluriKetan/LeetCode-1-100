@@ -1,52 +1,44 @@
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
 class Solution {
-    public ArrayList<LinkedList<LinkedList<Integer>>> arr = null;
+
+    private static List<List<Integer>> ans;
+    private static int[][] graphS;
+
+    public Solution() {
+        ans = new LinkedList<>();
+    }
 
     public List<List<Integer>> allPathsSourceTarget(int[][] graph) {
-        this.arr = new ArrayList<>(graph.length);
-        for (int i = 0; i < graph.length; i++) {
-            this.arr.add(i, null);
-        }
-        List<List<Integer>> list = new LinkedList<>();
+        ans.clear();
+        graphS = graph;
         for (int i = 0; i < graph[0].length; i++) {
-            list.addAll(map(0, helper(graph[0][i], graph)));
+            helper(graphS[0][i], graphS[0][i] << 4, 8);
         }
-        return list;
+        return ans;
     }
 
-    public LinkedList<LinkedList<Integer>> helper(int node, int[][] graph) {
-        if (this.arr.get(node) != null) {
-            return this.arr.get(node);
+    public void helper(int node, long path, int pathLenBits) {
+        if (node == graphS.length - 1) {
+            pathifier(path, pathLenBits);
+            return;
         }
-        LinkedList<LinkedList<Integer>> list = new LinkedList<>();
-        if (node == graph.length - 1) {
-            LinkedList<Integer> place = new LinkedList<>();
-            place.add(node);
-            list.add(place);
-            this.arr.add(node, list);
-            return list;
-        } else {
-            for (int i = 0; i < graph[node].length; i++) {
-                if (this.arr.get(i) != null) {
-                    list.addAll(map(node, this.arr.get(i)));
-                } else {
-                    list.addAll(map(node, helper(graph[node][i], graph)));
-                }
-            }
-            this.arr.add(node, list);
-            return list;
+
+        long currPath;
+        for (int i = 0; i < graphS[node].length; i++) {
+            currPath = graphS[node][i];
+            currPath <<= pathLenBits;
+            helper(graphS[node][i], path + currPath, pathLenBits + 4);
         }
     }
 
-    public LinkedList<LinkedList<Integer>> map(int add, LinkedList<LinkedList<Integer>> list) {
-        for (int i = 0; i < list.size(); i++) {
-            LinkedList<Integer> newList = list.get(i);
-            newList.addFirst(add);
-            list.set(i, newList);
+    private void pathifier(long path, int pathLen) {
+        LinkedList<Integer> currPath = new LinkedList<>();
+        for (int i = 0; i < pathLen / 4; i++) {
+            currPath.add((int) path & 15);
+            path >>= 4;
         }
-        return list;
+        ans.add(currPath);
     }
 }

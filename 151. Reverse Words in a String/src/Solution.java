@@ -1,35 +1,16 @@
+import java.util.Arrays;
+
 class Solution {
     public String reverseWords(String s) {
-        StringBuilder str = new StringBuilder();
-        int i = s.length() - 1;
-        boolean check = false;
-        while (i > -1) {
-            if (s.charAt(i) == ' ') {
-                if (check) {
-                    int j = i + 1;
-                    while (j < s.length() && s.charAt(j) != ' ') {
-                        str.append(s.charAt(j));
-                        j++;
-                    }
-                    str.append(' ');
-                    check = false;
-                }
-            } else {
-                if (!check) {
-                    check = true;
-                }
-            }
-            i--;
+        String[] arr = s.trim().split("\\s+");
+        System.out.println(Arrays.toString(arr));
+        StringBuilder sb = new StringBuilder();
+        for (int i = arr.length - 1; i > -1; i--) {
+            sb.append(arr[i] + " ");
         }
-        if (s.charAt(0) != ' ') {
-            int j = i + 1;
-            while (j < s.length() && s.charAt(j) != ' ') {
-                str.append(s.charAt(j));
-                j++;
-            }
-        } else {
-            str.deleteCharAt(str.length() - 1);
+        if (sb.charAt(sb.length() - 1) == ' ') {
+            sb.deleteCharAt(sb.length() - 1);
         }
-        return str.toString();
+        return sb.toString();
     }
 }
