@@ -1,0 +1,82 @@
+/* package codechef; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Codechef {
+
+    private static FastScan fs;
+    private static BufferedWriter bw;
+
+    public static void main (String[] args) throws java.lang.Exception {
+        fs = new FastScan();
+        bw = new BufferedWriter(new OutputStreamWriter(System.out));
+        int num = fs.nextInt();
+        for (int i = 0; i < num; i++) {
+            bw.write(ans() + "\n");
+        }
+        fs.close();
+        bw.flush();
+    }
+
+    private static int ans() {
+        int n = fs.nextInt();
+        long k = fs.nextLong();
+        HashMap<Integer, Integer> map = new HashMap<>();
+        ArrayList<BitSet> setList = new ArrayList<>();
+        for (int i = 0; i < n; i++) {
+            int curr = fs.nextInt();
+            setList.add(new BitSet());
+            for (BitSet bitSet: setList) {
+                bitSet.set(curr);
+                map.merge(bitSet.nextClearBit(0), 1, Integer::sum);
+            }
+        }
+        for (Map.Entry<Integer, Integer> currIter : map.entrySet()) {
+            k -= currIter.getValue();
+            if (k <= 0) {
+                return currIter.getKey();
+            }
+        }
+        return 0;
+    }
+
+    private static class FastScan {
+        BufferedReader br;
+        StringTokenizer st;
+
+        public FastScan() {
+            br = new BufferedReader(new InputStreamReader(System.in));
+        }
+
+        public String next() {
+            while (st == null || !st.hasMoreElements()) {
+                try {
+                    st = new StringTokenizer(br.readLine());
+                }
+                catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+            return st.nextToken();
+        }
+
+        public int nextInt() {
+            return Integer.parseInt(next());
+        }
+
+        public long nextLong() {
+            return Long.parseLong(next());
+        }
+
+        public void close() {
+            try {
+                br.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+}

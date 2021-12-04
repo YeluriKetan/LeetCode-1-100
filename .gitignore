@@ -1,0 +1,5 @@
+CODECHEF/*/*
+!CODECHEF/*/src
+
+LeetCode/*/*/*
+!LeetCode/*/*/src
