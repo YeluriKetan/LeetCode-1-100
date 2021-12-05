@@ -1,32 +1,16 @@
-import java.util.Arrays;
-
 class Solution {
-
-    private static int[] arr;
-    private static int[] memo;
 
     public int rob(int[] nums) {
         if (nums.length == 1) {
             return nums[0];
         }
-        arr = nums;
-        memo = new int[nums.length];
-        Arrays.fill(memo, -1);
-        return Math.max(helper(0), helper(1));
-    }
-
-    private int helper(int index) {
-        if (memo[index] > -1) {
-            return memo[index];
+        if (nums.length == 2) {
+            return Math.max(nums[0], nums[1]);
         }
-        int curr = arr[index];
-        if (index + 2 < arr.length) {
-            curr = arr[index] + helper(index + 2);
+        for (int i = 2; i < nums.length; i++) {
+            nums[i] += nums[i - 2];
+            nums[i - 1] = Math.max(nums[i - 1], nums[i - 2]);
         }
-        if (index + 3 < arr.length) {
-            curr = Math.max(curr, arr[index] + helper(index + 3));
-        }
-        memo[index] = curr;
-        return curr;
+        return Math.max(nums[nums.length - 1], nums[nums.length - 2]);
     }
 }
