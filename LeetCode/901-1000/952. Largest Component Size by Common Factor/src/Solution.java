@@ -17,13 +17,12 @@ class Solution {
                     makeDescendants(nums[i], nums[i] / j);
                 }
             }
-            System.out.println(i + "). " + nums[i] + ", " + parentMap.toString());
         }
 
         int currParent;
         int maxCount = Integer.MIN_VALUE;
         HashMap<Integer, Integer> countMap = new HashMap<>();
-        for (Integer currKey: parentMap.keySet()) {
+        for (Integer currKey: nums) {
             currParent = findHighestAncestor(currKey);
             maxCount = Math.max(maxCount, 1 + countMap.getOrDefault(currParent, 0));
             countMap.put(currParent, 1 + countMap.getOrDefault(currParent, 0));
