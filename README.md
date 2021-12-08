@@ -32,16 +32,18 @@ This repo contains **MY** version of solutions to algorithmic and competitive pr
 
 ## Usage
 
-1. Open the platform-based directory of you choice
+1. Open the platform-based directory of your choice.
 2. Navigate through lexicographically distributed sub-directories.
 3. Open the directory with the same name as the problem of your choice.
 4. Inside the `src` directory, you'll be able to find the appropriately named solution files.
-5. Some problems also contain a `Test` driver file for testing purposes. 
+5. Some problems also contain a `Test.java` driver file for testing purposes. 
 
 ## Author
 
 [Yeluri Ketan](https://github.com/YeluriKetan) - Undergraduate, Computer Science, NUS '24
-<br>
+
+#
+
 **Note:** 
 * Solutions in this repo might not always be the fastest or most efficient in terms of space usage.
 * My solution to any of the included problems is just one way of solving the problem and is not the only right way to solve it.
