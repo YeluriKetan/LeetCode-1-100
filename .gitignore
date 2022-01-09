@@ -1,5 +1,6 @@
 CODECHEF/*/*
 !CODECHEF/*/src
+!CODECHEF/*/*.cpp
 
 LeetCode/*/*/*
 !LeetCode/*/*/src
