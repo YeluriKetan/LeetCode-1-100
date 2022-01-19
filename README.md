@@ -1,42 +1,50 @@
-
 # Project TREADS
 
-**TREADS** stands for  **T**ry, **R**ealize and **E**xplore **A**lgorithms and **D**ata **S**tructures
+**TREADS** stands for **T**ry, **R**ealize and **E**xplore **A**lgorithms and **D**ata **S**tructures
 
 ## About
 
-I like solving problems, irrespective of the nature and extent of the problem. As a Computer Science undergraduate student, I was introduced to programming problems in  a course [module](https://nusmods.com/modules/CS2040S/data-structures-and-algorithms). And ever since, solving problems with code while listening to lofi music has been my go-to productive pastime.
+I like solving problems, irrespective of the nature and extent of the problem. As a Computer Science undergraduate student, I was introduced to programming problems in a course [module](https://nusmods.com/modules/CS2040S/data-structures-and-algorithms). And ever since, solving problems with code while listening to lofi music has been my go-to productive pastime.
 
 Initiated on 04th March, 2021, the aim of Project TREADS is to learn, understand, practice and explore theoretical knowledge and practical skills in the concepts of **Algorithms and Data Structures**.
 
-This repo contains **MY** version of solutions to algorithmic and competitive programming problems from platforms like LeetCode and CODECHEF. The solutions are written entirely in **Java**. All solutions in the repo are free to use and learn from, with their corresponding questions of the same name available on the specified platform.
+This repo contains **MY** version of solutions to algorithmic and competitive programming problems from platforms like LeetCode, CODECHEF and Google Kick Start. The solutions are written either **Java** or **C++**. All solutions in the repo are free to use and learn from, with their corresponding questions of the same name available on the specified platform.
 
 ## Stats
 
-- Beginning on 04th March, 2021, this project is currently in progress with over 100+ hours of active problem solving and coding. 
+- Beginning on 04th March, 2021, this project is currently in progress with over 100+ hours of active problem solving and coding.
 
-- Over 200+ problems solved on LeetCode - [profile](https://leetcode.com/Ketan_Yeluri/)
-	- 90+ are of Easy level difficulty with an acceptance rate of 90+ %
-	- 100+ are of Medium level difficulty with an acceptance rate of 90+ %
-	- 10+ are of Hard level difficulty with an acceptance rate of 90+ %
-	- 60+ day streak for Daily Coding Challenge
+- Over 280+ problems solved on LeetCode - [profile](https://leetcode.com/Ketan_Yeluri/)
+
+  - 110+ are of Easy level difficulty with an acceptance rate of 90+ %
+  - 150+ are of Medium level difficulty with an acceptance rate of 90+ %
+  - 20+ are of Hard level difficulty with an acceptance rate of 90+ %
+  - 100+ day streak for Daily Coding Challenge
 
 - About 50 problems solved on CODECHEF - [profile](https://www.codechef.com/users/yeluriketan)
-	- Participated in 12+ Competitive Programming Contests
+
+  - Participated in 12+ Competitive Programming Contests
+
+- About 10 problems solved on Google Kick Start
 
 ## Tech
 
--  [Java](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) - Written in Java™ SE Development Kit 11.0.9 (JDK 11.0.9)
+- [Java](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) - Written in Java™ SE Development Kit 11.0.9 (JDK 11.0.9)
 
--  [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/#section=windows) - Text editor for Java
+- [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/#section=windows) - An IDE for Java
+
+- [C++](https://en.cppreference.com/w/cpp/14) - Written in C++ 14
+
+- [CLion](https://www.jetbrains.com/clion/download/#section=windows) - A cross-platform IDE for C and C++
 
 ## Usage
 
 1. Open the platform-based directory of your choice.
 2. Navigate through lexicographically distributed sub-directories.
 3. Open the directory with the same name as the problem of your choice.
-4. Inside the `src` directory, you'll be able to find the appropriately named solution files.
-5. Some problems also contain a `Test.java` driver file for testing purposes. 
+4. Inside the directory,
+   - the `src` sub-directory would contain appropriately named **Java** solution and (occasionally) test files.
+   - `Solution.cpp` would contain the **C++** solution.
 
 ## Author
 
@@ -44,7 +52,8 @@ This repo contains **MY** version of solutions to algorithmic and competitive pr
 
 #
 
-**Note:** 
-* Solutions in this repo might not always be the fastest or most efficient in terms of space usage.
-* My solution to any of the included problems is just one way of solving the problem and is not the only right way to solve it.
-* You might find likeness between the solutions in this repo and other openly available solutions on the internet. This could be a result of me taking inspiration/help from similar solutions or just sheer coincidence. 
+**Note:**
+
+- Solutions in this repo might not always be the fastest or most efficient in terms of space usage.
+- My solution to any of the included problems is just one way of solving the problem and is not the only right way to solve it.
+- You might find likeness between the solutions in this repo and other openly available solutions on the internet. This could be a result of me taking inspiration/help from similar solutions or just sheer coincidence.
