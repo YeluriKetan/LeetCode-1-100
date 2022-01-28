@@ -12,14 +12,14 @@ This repo contains **MY** version of solutions to algorithmic and competitive pr
 
 ## Stats
 
-- Beginning on 04th March, 2021, this project is currently in progress with over 100+ hours of active problem solving and coding.
+- Beginning on 04th March, 2021, this project is currently in progress with over 150+ hours of active problem solving and coding.
 
-- Over 280+ problems solved on LeetCode - [profile](https://leetcode.com/Ketan_Yeluri/)
+- Over 300+ problems solved on LeetCode - [profile](https://leetcode.com/Ketan_Yeluri/)
 
   - 110+ are of Easy level difficulty with an acceptance rate of 90+ %
-  - 150+ are of Medium level difficulty with an acceptance rate of 90+ %
-  - 20+ are of Hard level difficulty with an acceptance rate of 90+ %
-  - 100+ day streak for Daily Coding Challenge
+  - 170+ are of Medium level difficulty with an acceptance rate of 90+ %
+  - 25+ are of Hard level difficulty with an acceptance rate of 90+ %
+  - 120+ day streak for Daily Coding Challenge
 
 - About 50 problems solved on CODECHEF - [profile](https://www.codechef.com/users/yeluriketan)
 
