@@ -5,6 +5,7 @@ CODECHEF/*/*
 LeetCode/*/*/*
 !LeetCode/*/*/src
 !LeetCode/*/*/*.cpp
+!LeetCode/*/*/*.py
 
 Google Kick Start/*/*/*/*
 !Google Kick Start/*/*/*/src
