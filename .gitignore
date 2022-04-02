@@ -7,5 +7,7 @@ LeetCode/*/*/*
 !LeetCode/*/*/*.cpp
 !LeetCode/*/*/*.py
 
-Google Kick Start/*/*/*/*
-!Google Kick Start/*/*/*/src
+Codeforces/*/*
+!Codeforces/*/src
+!Codeforces/*/*.cpp
+!Codeforces/*/*.py

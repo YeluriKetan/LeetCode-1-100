@@ -8,24 +8,22 @@ I like solving problems, irrespective of the nature and extent of the problem. A
 
 Initiated on 04th March, 2021, the aim of Project TREADS is to learn, understand, practice and explore theoretical knowledge and practical skills in the concepts of **Algorithms and Data Structures**.
 
-This repo contains **MY** version of solutions to algorithmic and competitive programming problems from platforms like LeetCode, CODECHEF and Google Kick Start. The solutions are written either **Java** or **C++**. All solutions in the repo are free to use and learn from, with their corresponding questions of the same name available on the specified platform.
+This repo contains **MY** version of solutions to algorithmic and competitive programming problems from platforms like LeetCode, CODECHEF and Codeforces. The solutions are written in **Java**, **C++** and **Python**. All solutions in the repo are free to use and learn from, with their corresponding questions of the same name available on the specified platform.
 
 ## Stats
 
 - Beginning on 04th March, 2021, this project is currently in progress with over 150+ hours of active problem solving and coding.
 
-- Over 300+ problems solved on LeetCode - [profile](https://leetcode.com/Ketan_Yeluri/)
+- Over 390+ problems solved on LeetCode - [profile](https://leetcode.com/Ketan_Yeluri/)
 
-  - 110+ are of Easy level difficulty with an acceptance rate of 90+ %
-  - 170+ are of Medium level difficulty with an acceptance rate of 90+ %
-  - 25+ are of Hard level difficulty with an acceptance rate of 90+ %
-  - 120+ day streak for Daily Coding Challenge
+  - 120+ are of Easy level difficulty with an acceptance rate of 90+ %
+  - 225+ are of Medium level difficulty with an acceptance rate of 90+ %
+  - 35+ are of Hard level difficulty with an acceptance rate of 90+ %
+  - 180+ day streak for Daily Coding Challenge
 
 - About 50 problems solved on CODECHEF - [profile](https://www.codechef.com/users/yeluriketan)
 
   - Participated in 12+ Competitive Programming Contests
-
-- About 10 problems solved on Google Kick Start
 
 ## Tech
 
@@ -37,6 +35,10 @@ This repo contains **MY** version of solutions to algorithmic and competitive pr
 
 - [CLion](https://www.jetbrains.com/clion/download/#section=windows) - A cross-platform IDE for C and C++
 
+- [Python](https://www.python.org/) - Written in Python 3.10.2
+
+- [Visual Studio Code](https://code.visualstudio.com/) - An open-source code editor
+
 ## Usage
 
 1. Open the platform-based directory of your choice.
@@ -45,6 +47,7 @@ This repo contains **MY** version of solutions to algorithmic and competitive pr
 4. Inside the directory,
    - the `src` sub-directory would contain appropriately named **Java** solution and (occasionally) test files.
    - `Solution.cpp` would contain the **C++** solution.
+   - `Solution.py` would contain the the **Python** solution.
 
 ## Author
 
