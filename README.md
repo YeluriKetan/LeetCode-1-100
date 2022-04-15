@@ -16,14 +16,20 @@ This repo contains **MY** version of solutions to algorithmic and competitive pr
 
 - Over 390+ problems solved on LeetCode - [profile](https://leetcode.com/Ketan_Yeluri/)
 
-  - 120+ are of Easy level difficulty with an acceptance rate of 90+ %
-  - 225+ are of Medium level difficulty with an acceptance rate of 90+ %
+  - 125+ are of Easy level difficulty with an acceptance rate of 90+ %
+  - 225+ are of Medium level difficulty with an acceptance rate of 95+ %
   - 35+ are of Hard level difficulty with an acceptance rate of 90+ %
-  - 180+ day streak for Daily Coding Challenge
+  - 183 day streak for Daily Coding Challenge
+    - From Oct 5th, 2021 to Apr 5th, 2022
 
 - About 50 problems solved on CODECHEF - [profile](https://www.codechef.com/users/yeluriketan)
 
   - Participated in 12+ Competitive Programming Contests
+
+- Over 15+ questions solved on Codeforces - [profile](https://codeforces.com/profile/YeluriKetan)
+
+  - 10+ day streak for solving problems daily
+    - Started on Apr 6th, 2022
 
 ## Tech
 
