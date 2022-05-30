@@ -22,13 +22,13 @@ This repo contains **MY** version of solutions to algorithmic and competitive pr
   - 183 day streak for Daily Coding Challenge
     - From Oct 5th, 2021 to Apr 5th, 2022
 
-- About 50 problems solved on CODECHEF - [profile](https://www.codechef.com/users/yeluriketan)
+- Over 55+ problems solved on CODECHEF - [profile](https://www.codechef.com/users/yeluriketan)
 
   - Participated in 12+ Competitive Programming Contests
 
-- Over 15+ questions solved on Codeforces - [profile](https://codeforces.com/profile/YeluriKetan)
+- Over 75+ questions solved on Codeforces - [profile](https://codeforces.com/profile/YeluriKetan)
 
-  - 10+ day streak for solving problems daily
+  - 55+ day streak for solving problems daily
     - Started on Apr 6th, 2022
 
 ## Tech
