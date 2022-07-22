@@ -26,9 +26,9 @@ This repo contains **MY** version of solutions to algorithmic and competitive pr
 
   - Participated in 12+ Competitive Programming Contests
 
-- Over 75+ questions solved on Codeforces - [profile](https://codeforces.com/profile/YeluriKetan)
+- Over 140+ questions solved on Codeforces - [profile](https://codeforces.com/profile/YeluriKetan)
 
-  - 55+ day streak for solving problems daily
+  - 110+ day streak for solving problems daily
     - Started on Apr 6th, 2022
 
 ## Tech
