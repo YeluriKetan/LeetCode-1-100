@@ -7,7 +7,7 @@ LeetCode/*/*/*
 !LeetCode/*/*/*.cpp
 !LeetCode/*/*/*.py
 
-Codeforces/*/*
-!Codeforces/*/src
-!Codeforces/*/*.cpp
-!Codeforces/*/*.py
+Codeforces/*/*/*
+!Codeforces/*/*/src
+!Codeforces/*/*/*.cpp
+!Codeforces/*/*/*.py
