@@ -6,6 +6,7 @@ LeetCode/*/*/*
 !LeetCode/*/*/src
 !LeetCode/*/*/*.cpp
 !LeetCode/*/*/*.py
+!LeetCode/*/*/*.sql
 
 Codeforces/*/*/*
 !Codeforces/*/*/src
