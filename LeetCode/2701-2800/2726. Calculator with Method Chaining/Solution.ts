@@ -1,0 +1,39 @@
+class Calculator {
+  val: number;
+
+  constructor(value: number) {
+    this.val = value;
+  }
+
+  add(value: number): Calculator {
+    this.val = this.val + value;
+    return this;
+  }
+
+  subtract(value: number): Calculator {
+    this.val = this.val - value;
+    return this;
+  }
+
+  multiply(value: number): Calculator {
+    this.val = this.val * value;
+    return this;
+  }
+
+  divide(value: number): Calculator {
+    if (value === 0) {
+      throw "Division by zero is not allowed";
+    }
+    this.val = this.val / value;
+    return this;
+  }
+
+  power(value: number): Calculator {
+    this.val = this.val ** value;
+    return this;
+  }
+
+  getResult(): number {
+    return this.val;
+  }
+}
